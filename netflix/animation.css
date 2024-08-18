@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.container1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    animation: nani 4s infinite;
+}
+@keyframes nani{
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+
+    }
+    25%{
+        background-color: yellow;
+        top: 0;
+        left: 1380px;
+
+    }
+    50%{
+        background-color: green;
+        top: 600px;
+        left: 1380px;
+    }
+    75%{
+        background-color: white;
+        top: 500px;
+        left: 0px;
+    }
+    100%{
+        background-color: blue;
+        top: 0px;
+        left: 0px;
+    }
+}
